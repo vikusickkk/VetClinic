@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinic.BL", "VetClinic.BL\VetClinic.BL.csproj", "{9F0FB786-2B25-4284-8EFD-4459ADEEC41C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinic.DataAccess", "VetClinic.DataAccess\VetClinic.DataAccess.csproj", "{EBDD4359-2955-4F4A-A3C5-B12E5F5CA523}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinic.WebAPI", "VetClinic.WebAPI\VetClinic.WebAPI.csproj", "{8CFFC935-E2B7-4EBC-9508-DB0F859CC6FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B63639FA-5018-4963-91B7-2E7F63725CE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinic.UnitTest", "VetClinic.UnitTest\VetClinic.UnitTest.csproj", "{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic.BL.UnitTest", "VetClinic.BL.UnitTest\VetClinic.BL.UnitTest.csproj", "{CC9AB706-014C-40C6-AC68-395B5D195853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0FB786-2B25-4284-8EFD-4459ADEEC41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0FB786-2B25-4284-8EFD-4459ADEEC41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0FB786-2B25-4284-8EFD-4459ADEEC41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0FB786-2B25-4284-8EFD-4459ADEEC41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDD4359-2955-4F4A-A3C5-B12E5F5CA523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDD4359-2955-4F4A-A3C5-B12E5F5CA523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDD4359-2955-4F4A-A3C5-B12E5F5CA523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDD4359-2955-4F4A-A3C5-B12E5F5CA523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFFC935-E2B7-4EBC-9508-DB0F859CC6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFFC935-E2B7-4EBC-9508-DB0F859CC6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFFC935-E2B7-4EBC-9508-DB0F859CC6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFFC935-E2B7-4EBC-9508-DB0F859CC6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9AB706-014C-40C6-AC68-395B5D195853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9AB706-014C-40C6-AC68-395B5D195853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9AB706-014C-40C6-AC68-395B5D195853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9AB706-014C-40C6-AC68-395B5D195853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C013DE7-E0AA-44B3-8046-A9BEB7336A2D} = {B63639FA-5018-4963-91B7-2E7F63725CE1}
+		{CC9AB706-014C-40C6-AC68-395B5D195853} = {B63639FA-5018-4963-91B7-2E7F63725CE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B281B194-BD22-49A7-ADA2-A5F3C946E24C}
+	EndGlobalSection
+EndGlobal
